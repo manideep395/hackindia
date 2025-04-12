@@ -39,57 +39,46 @@ const About = () => {
   const [activeTeamMember, setActiveTeamMember] = useState<number | null>(null);
 
   const teamMembers: TeamMember[] = [
-    {
-      id: 1,
-      name: "Dhadi Sai Praneeth Reddy",
-      role: "Founder & CTO of QwikZen Group India",
-      education: "Student at Vasavi College of Engineering, CSE Department",
-      rollNo: "1602-23-733-038",
-      bio: "Visionary leader behind QwikZen, a zero-investment AI-driven software development startup focused on cutting-edge AI solutions, real-time applications, and hardware innovations.",
-      expertise: ["AI", "Machine Learning", "Software Development", "Full-Stack Engineering"],
-      achievements: [
-        "Spearheaded the QwiXSuite, an ecosystem of independent AI-powered tools.",
-        "Developed QwiXGenie, an AI-powered code-generation model.",
-        "Innovated QwiXlate, a real-time multilingual AI voice-to-text converter.",
-        "Leading research on IKS Samvardhini Yojana to decode the cosmic significance of Pancha Bhoota Sthalas.",
-        "Developing a home automation hardware project for automated water motor control with IoT integration."
-      ],
-      image: "/placeholder.svg",
-      github: "github.com/dspraneeth07",
-      linkedin: "linkedin.com/in/dspraneeth07",
-      email: "dspraneeth07@gmail.com"
-    },
-    {
-      id: 2,
-      name: "Kasireddy Manideep Reddy",
-      role: "Co-Founder & CEO of QwikZen",
-      education: "Student at Vasavi College of Engineering, CSE Department",
-      rollNo: "1602-23-733-022",
-      bio: "Strategic leader driving QwikZen's growth, innovation, and AI-first approach.",
-      expertise: ["Software Engineering", "AI Technologies", "Business Strategy"],
-      achievements: [
-        "Oversees the development and expansion of QwiXSuite.",
-        "Leads AI-driven software development, ensuring scalability and real-world impact.",
-        "Works on future monetization strategies for QwikZen's AI projects."
-      ],
-      image: "/placeholder.svg",
-      linkedin: "linkedin.com/in/manideep-kasireddy-2ba51428a",
-      email: "kasireddymanideepreddy405@gmail.com"
-    },
-    {
-      id: 3,
-      name: "Pravalika Batchu",
-      role: "Full-Stack Developer, QwikZen Group India",
-      education: "Student at Vasavi College of Engineering, CSE Department",
-      rollNo: "1602-23-733-311",
-      bio: "Core developer specializing in front-end and back-end development for QwikZen's AI-driven products.",
-      expertise: ["Full-Stack Development", "UI/UX Design", "Scalable Web Architectures"],
-      achievements: [
-        "Developed QwiX CV's AI-powered resume scanner UI.",
-        "Works on QwikZen's AI-integrated applications, ensuring smooth user experiences."
-      ],
-      image: "/placeholder.svg"
-    }
+    [
+  {
+    "id": 1,
+    "name": "Dhadi Sai Praneeth Reddy",
+    "role": "Founder & CTO of QwikZen Group India",
+    "education": "Student at Vasavi College of Engineering, CSE Department",
+    "rollNo": "1602-23-733-038",
+    "bio": "Visionary leader behind QwikZen, a zero-investment AI-driven software development startup focused on cutting-edge AI solutions, real-time applications, and hardware innovations.",
+    "expertise": ["AI", "Machine Learning", "Software Development", "Full-Stack Engineering"],
+    "achievements": [
+      "Spearheaded the QwiXSuite, an ecosystem of independent AI-powered tools.",
+      "Developed QwiXGenie, an AI-powered code-generation model.",
+      "Innovated QwiXlate, a real-time multilingual AI voice-to-text converter.",
+      "Leading research on IKS Samvardhini Yojana to decode the cosmic significance of Pancha Bhoota Sthalas.",
+      "Developing a home automation hardware project for automated water motor control with IoT integration."
+    ],
+    "image": "/placeholder.svg",
+    "github": "github.com/dspraneeth07",
+    "linkedin": "linkedin.com/in/dspraneeth07",
+    "email": "dspraneeth07@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "Kasireddy Manideep Reddy",
+    "role": "Co-Founder & CEO of QwikZen",
+    "education": "Student at Vasavi College of Engineering, CSE Department",
+    "rollNo": "1602-23-733-022",
+    "bio": "Strategic leader driving QwikZen's growth, innovation, and AI-first approach.",
+    "expertise": ["Software Engineering", "AI Technologies", "Business Strategy"],
+    "achievements": [
+      "Oversees the development and expansion of QwiXSuite.",
+      "Leads AI-driven software development, ensuring scalability and real-world impact.",
+      "Works on future monetization strategies for QwikZen's AI projects."
+    ],
+    "image": "/placeholder.svg",
+    "linkedin": "linkedin.com/in/manideep-kasireddy-2ba51428a",
+    "email": "kasireddymanideepreddy405@gmail.com"
+  }
+]
+
   ];
 
   const toggleMemberDetails = (id: number) => {
