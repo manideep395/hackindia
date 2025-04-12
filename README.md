@@ -23,9 +23,6 @@ QWIK CV is an intelligent resume builder that leverages AI to create ATS-optimiz
 |------|------|---------|
 | **Dhadi Sai Praneeth Reddy** | Team Lead & Full Stack Developer | 📱 +91 7416466619 <br> 📧 dspraneeth07@gmail.com |
 | **Kasireddy Manideep Reddy** | AI Engineer & Backend Developer | 📱 +91 9390424085 <br> 📧 kasireddymanideepreddy405@gmail.com |
-| **Pravalika Batchu** | UI/UX Designer | 📝 Roll: 1602-23-733-308 |
-| **Bhavana Vemula** | Backend Developer | |
-| **Vaishnavi Konda** | Frontend Developer | |
 
 ## 🌟 Key Features
 
